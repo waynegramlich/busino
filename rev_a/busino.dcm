@@ -5,8 +5,24 @@ D Hex Inverter
 K Open Collector/Drain Inverter
 $ENDCMP
 #
+$CMP C_HORIZ
+D Non-Polarized Capacitor
+$ENDCMP
+#
 $CMP C_VERT
-D Condensateur non polarise
+D Non-Porlarized Capacitor
+$ENDCMP
+#
+$CMP R_HORIZ
+D Resistor
+$ENDCMP
+#
+$CMP R_VERT
+D Resistor
+$ENDCMP
+#
+$CMP SCHOTTKY_DIODE_VERT
+D Schottky Diode
 $ENDCMP
 #
 #End Doc Library
