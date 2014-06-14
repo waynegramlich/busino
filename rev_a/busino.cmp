@@ -1,0 +1,353 @@
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Tue 10 Jun 2014 09:22:52 AM PDT
+
+BeginCmp
+TimeStamp = /53928C55/539511B8;
+Reference = C1;
+ValeurCmp = .1uF;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/5393A403;
+Reference = C2;
+ValeurCmp = 18pF;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/53965707;
+Reference = C3;
+ValeurCmp = .1uF;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/5393A40E;
+Reference = C4;
+ValeurCmp = 18pF;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/539511C3;
+Reference = C5;
+ValeurCmp = .1uF;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/539401E3;
+Reference = C6;
+ValeurCmp = .1uF;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/5392B92B;
+Reference = C7;
+ValeurCmp = .1uF;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/539651F0;
+Reference = D1;
+ValeurCmp = SCHOTTKY_DIODE_VERT;
+IdModule  = Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FD92D/53938E58;
+Reference = H1;
+ValeurCmp = 3MM_HOLE;
+IdModule  = Mounting_Holes:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FD92D/53938E6A;
+Reference = H2;
+ValeurCmp = 3MM_HOLE;
+IdModule  = Mounting_Holes:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FD92D/53938E75;
+Reference = H3;
+ValeurCmp = 3MM_HOLE;
+IdModule  = Mounting_Holes:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FD92D/53938E80;
+Reference = H4;
+ValeurCmp = 3MM_HOLE;
+IdModule  = Mounting_Holes:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5390937B/5396AEDF;
+Reference = H5;
+ValeurCmp = 3MM_HOLE;
+IdModule  = Mounting_Holes:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/53933893;
+Reference = H6;
+ValeurCmp = 3MM_HOLE;
+IdModule  = Mounting_Holes:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/539338AF;
+Reference = H7;
+ValeurCmp = 3MM_HOLE;
+IdModule  = Mounting_Holes:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/539338BA;
+Reference = H8;
+ValeurCmp = 3MM_HOLE;
+IdModule  = Mounting_Holes:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/539338C5;
+Reference = H9;
+ValeurCmp = 3MM_HOLE;
+IdModule  = Mounting_Holes:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5396B056/5396AEE0;
+Reference = H10;
+ValeurCmp = 3MM_HOLE;
+IdModule  = Mounting_Holes:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5396AADF/5396AEE1;
+Reference = H11;
+ValeurCmp = 3MM_HOLE;
+IdModule  = Mounting_Holes:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5396A91D/53938C5E;
+Reference = H12;
+ValeurCmp = 3MM_HOLE;
+IdModule  = Mounting_Holes:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/5392C0F6;
+Reference = J1;
+ValeurCmp = TERMINATE_JUMPER;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FD92D/53909100;
+Reference = N1;
+ValeurCmp = ARD_SPI_HEADER;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FD92D/5397350A;
+Reference = N2;
+ValeurCmp = D8_D13_HEADER;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x08;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FD92D/53973993;
+Reference = N3;
+ValeurCmp = D0_D7_HEADER;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x08;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FD92D/53909173;
+Reference = N4;
+ValeurCmp = A0_A5_HEADER;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FD92D/53909187;
+Reference = N5;
+ValeurCmp = ARD_PWR_HEADER;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /5390937B/5396AEE5;
+Reference = N6;
+ValeurCmp = MS_DATA_HEADER;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x08;
+EndCmp
+
+BeginCmp
+TimeStamp = /5390937B/539699B3;
+Reference = N7;
+ValeurCmp = MS_PWR_HEADER;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x08;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/539732E3;
+Reference = N8;
+ValeurCmp = BUS_SLAVE_HEADER;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x05;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/53973C34;
+Reference = N9;
+ValeurCmp = FTDI_HEADER;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /5396B056/539699C7;
+Reference = N10;
+ValeurCmp = MS_DATA_HEADER;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x08;
+EndCmp
+
+BeginCmp
+TimeStamp = /5396B056/5396AEE3;
+Reference = N11;
+ValeurCmp = MS_PWR_HEADER;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x08;
+EndCmp
+
+BeginCmp
+TimeStamp = /5396AADF/5396AEE6;
+Reference = N12;
+ValeurCmp = MS_DATA_HEADER;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x08;
+EndCmp
+
+BeginCmp
+TimeStamp = /5396AADF/5396AEE2;
+Reference = N13;
+ValeurCmp = MS_PWR_HEADER;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x08;
+EndCmp
+
+BeginCmp
+TimeStamp = /5396A91D/5396AEE7;
+Reference = N14;
+ValeurCmp = MS_DATA_HEADER;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x08;
+EndCmp
+
+BeginCmp
+TimeStamp = /5396A91D/5396AEE4;
+Reference = N15;
+ValeurCmp = MS_PWR_HEADER;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x08;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/5392C307;
+Reference = R1;
+ValeurCmp = 120 1%;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM30mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/5392BBCA;
+Reference = R2;
+ValeurCmp = R_HORIZ;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM30mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/5392BBDC;
+Reference = R3;
+ValeurCmp = R_HORIZ;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM30mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/5393FAF3;
+Reference = R4;
+ValeurCmp = 1K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM30mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/5392BA25;
+Reference = R5;
+ValeurCmp = 180;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM30mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/5392B917;
+Reference = R6;
+ValeurCmp = 10K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM30mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/5392BE5E;
+Reference = R7;
+ValeurCmp = 10K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM30mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/53940674;
+Reference = SW1;
+ValeurCmp = 2_LEAD_PUSH_BUTTON;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/53973964;
+Reference = U1;
+ValeurCmp = VOLTAGE_REGULATOR;
+IdModule  = Transistors_TO-220:TO-220_Bipolar-BCE_Horizontal_LargePads;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/53973415;
+Reference = U2;
+ValeurCmp = MCP2562;
+IdModule  = Sockets_DIP:DIP-8__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/53973976;
+Reference = U3;
+ValeurCmp = VOLTAGE_REGULATOR;
+IdModule  = Transistors_TO-220:TO-220_Bipolar-BCE_Horizontal_LargePads;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/5392B71C;
+Reference = U4;
+ValeurCmp = 74x06;
+IdModule  = Sockets_DIP:DIP-14__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/539733EF;
+Reference = U5;
+ValeurCmp = ATMEGA324_DIP40;
+IdModule  = Sockets_DIP:DIP-40__600;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/5393A359;
+Reference = X1;
+ValeurCmp = 16MHz;
+IdModule  = Crystals:Crystal_HC49-U_Vertical;
+EndCmp
+
+EndListe

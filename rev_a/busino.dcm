@@ -25,4 +25,8 @@ $CMP SCHOTTKY_DIODE_VERT
 D Schottky Diode
 $ENDCMP
 #
+$CMP VOLTAGE_REGULATOR
+D Voltage Regulator
+$ENDCMP
+#
 #End Doc Library

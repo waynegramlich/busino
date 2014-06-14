@@ -1,4 +1,7 @@
 *-
 *~
 *.bak
+*-bak
 *.bck
+*.net
+*.svg
