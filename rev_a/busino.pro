@@ -1,4 +1,4 @@
-update=Thu 12 Jun 2014 05:54:41 PM PDT
+update=Sat 14 Jun 2014 02:28:52 PM PDT
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -55,7 +55,7 @@ LibName32=rev_c/mbino
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=busino.net
 UseCmpFile=1
 PadDrill=0.6
 PadDrillOvalY=0.6
@@ -70,7 +70,7 @@ ModuleTextSizeThickness=0.15
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
-BoardOutlineThickness=0.09999999999999999
+BoardOutlineThickness=0.2
 ModuleOutlineThickness=0.15
 [pcbnew/libraries]
 LibDir=

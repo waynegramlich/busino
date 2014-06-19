@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name IPC7351-Nominal)(type KiCad)(uri /home/wayne/public_html/projects/pcb_footprints/IPC7351-Nominal.mod)(options "")(descr ""))
+  (lib (name busino)(type KiCad)(uri $KIPRJMOD/busino.pretty)(options "")(descr ""))
 )

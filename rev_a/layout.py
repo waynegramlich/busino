@@ -13,6 +13,7 @@ class Canvas:
 	self._drawing = drawing
 	self._dx = 0.0
 	self._dy = 0.0
+	self._holes = []
 	self._pcb_x = 3.00	# PCB X offset (inches)
 	self._pcb_y = 3.00	# PCB Y offset (inches)
 	self._scale = 1.0
@@ -28,6 +29,7 @@ class Canvas:
 	drawing = self._drawing
 	dx = self._dx
 	dy = self._dy
+	holes = self._holes
 	pcb_x = self._pcb_x
 	pcb_y = self._pcb_y
 	scale = self._scale
@@ -39,11 +41,32 @@ class Canvas:
 	drawing.add(drawing.circle(center = (px, py),
 	  r = diameter/2.0 * scale))
 
+	#print("y={0} scale={1} dy={2}".format(y, scale, dy))
+	xx = pcb_x + ((x * scale + dx) - 100) / 25.4
+	yy = pcb_y - ((y * scale + dy) - 100) / 25.4
+	holes.append( [xx, yy] )
 	if label != "":
-	    #print("y={0} scale={1} dy={2}".format(y, scale, dy))
-	    xx = pcb_x + ((x * scale + dx) - 100) / 25.4
-	    yy = pcb_y - ((y * scale + dy) - 100) / 25.4
 	    print("{0}: ({1:.6f},{2:.6f})".format(label, xx, yy))
+
+    def holes_average(self, label):
+	assert isinstance(label, str)
+
+	# If *label* is not empty, print out the average of *holes*:
+	if label != "":
+	    holes = self._holes
+	    holes_size = len(holes)
+
+	    x_sum = 0.0
+	    y_sum = 0.0
+	    for hole in holes:
+		x_sum += hole[0]
+		y_sum += hole[1]
+	    x_average = x_sum / holes_size
+	    y_average = y_sum / holes_size
+	    print("{0}: ({1}, {2})".format(label, x_average, y_average))
+
+	self._holes = []
+	
 
     def line(self, x1, y1, x2, y2, color = "black", label = ""):
 	assert isinstance(x1, int) or isinstance(x1, float)
@@ -115,7 +138,7 @@ def main():
 
     # Arduino outline:
     #canvas.origin_scale(100, 100, 25.4)
-    canvas.origin_scale(100 - 2.400 * 25.4, 100 - 2.100/2.0 * 25.4, 25.4)
+    canvas.origin_scale(100 - 2.200 * 25.4, 100 - 2.100/2.0 * 25.4, 25.4)
     outline = [(0.000, 0.000, "SW"),
       (0.000, 2.100, "ArdNW"),
       (2.540, 2.100, "ArdNE1"),
@@ -160,6 +183,7 @@ def main():
 	rows = connector_pin1[3]
 	label = connector_pin1[4]
 
+	canvas.holes_average("")
 	#print("rows={0} columns={1}".format(rows, columns))
 	column_sign = columns / abs(columns)
 	row_sign = rows / abs(rows)
@@ -169,13 +193,14 @@ def main():
 		xx = x + column * column_sign * 0.100
 		#print("({0},{1})".format(xx, yy))
 		text = ""
-		#text = "{0}[{1},{2}]".format(label, column, row)
+		text = "{0}[{1},{2}]".format(label, column, row)
 		canvas.hole(xx, yy, 0.050, color = "black", label = text)
+	canvas.holes_average(label + "Center")
 
     # Draw the mini-shields:
     x1 = 100 - 1.000 * 25.4
-    x2 = 100 + 1.000 * 25.4
     y1 = 100 - 2.050 * 25.4
+    x2 = 100 + 1.000 * 25.4
     y2 = 100 + 2.050 * 25.4
     mini_shield(canvas, x1, y1, "SW")
     mini_shield(canvas, x2, y1, "SE")
@@ -213,16 +238,19 @@ def mini_shield(canvas, x, y, name):
 
     # Draw the connector holes:
     is_north = name == "NE" or name == "NW"
-    for row in range(8):
-	y = (0.2000 + row * 0.100) * 25.4
-	if is_north:
-	    y = -y
-	for column in range(2):
-            for sign in (1.0, -1.0):
-		x = sign * (0.750 + column * 0.100) * 25.4
+    for sign in (1.0, -1.0):
+	canvas.holes_average("")
+	for row in range(8):
+	    #y = (0.2000 - 0.025 + row * 0.100) * 25.4
+	    y = (0.2000 + row * 0.100) * 25.4
+	    if is_north:
+		y = -y
+	    for column in range(2):
+		x = sign * (0.700 + column * 0.100) * 25.4
 		text = ""
 		#text = "{0}[{1},{2}]".format(name, column, row)
 		canvas.hole(x, y, 0.05 * 25.4, color = "black", label = text)
+	canvas.holes_average("Mini{0}Center[{1}]".format(name, sign))
 
     # Draw Mount hole:
     text = ""
