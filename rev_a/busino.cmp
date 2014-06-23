@@ -1,9 +1,9 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed 18 Jun 2014 10:29:30 AM PDT
+Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Sun 22 Jun 2014 05:26:00 PM PDT
 
 BeginCmp
 TimeStamp = /53928C55/539511B8;
 Reference = C1;
-ValeurCmp = .1uF;
+ValeurCmp = 22uF;
 IdModule  = Busino_Rev_A:Capacitor3MMDiscRM2.5;
 EndCmp
 
@@ -17,7 +17,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53928C55/53965707;
 Reference = C3;
-ValeurCmp = .1uF;
+ValeurCmp = 22uF;
 IdModule  = Busino_Rev_A:Capacitor3MMDiscRM2.5;
 EndCmp
 
@@ -31,7 +31,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53928C55/539511C3;
 Reference = C5;
-ValeurCmp = .1uF;
+ValeurCmp = 22uF;
 IdModule  = Busino_Rev_A:Capacitor3MMDiscRM2.5;
 EndCmp
 
@@ -45,6 +45,41 @@ EndCmp
 BeginCmp
 TimeStamp = /53928C55/5392B92B;
 Reference = C7;
+ValeurCmp = .1uF;
+IdModule  = Busino_Rev_A:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/53A60F06;
+Reference = C8;
+ValeurCmp = .1uF;
+IdModule  = Busino_Rev_A:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/53A63575;
+Reference = C9;
+ValeurCmp = .1uF;
+IdModule  = Busino_Rev_A:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/53A63649;
+Reference = C10;
+ValeurCmp = .1uF;
+IdModule  = Busino_Rev_A:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/53A63687;
+Reference = C11;
+ValeurCmp = .1uF;
+IdModule  = Busino_Rev_A:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/53A636C6;
+Reference = C12;
 ValeurCmp = .1uF;
 IdModule  = Busino_Rev_A:Capacitor3MMDiscRM2.5;
 EndCmp
@@ -262,14 +297,14 @@ EndCmp
 BeginCmp
 TimeStamp = /53928C55/5392BBCA;
 Reference = R2;
-ValeurCmp = R_HORIZ;
+ValeurCmp = 1K;
 IdModule  = Busino_Rev_A:Resistor_Horizontal__400;
 EndCmp
 
 BeginCmp
 TimeStamp = /53928C55/5392BBDC;
 Reference = R3;
-ValeurCmp = R_HORIZ;
+ValeurCmp = 1K;
 IdModule  = Busino_Rev_A:Resistor_Horizontal__400;
 EndCmp
 
@@ -302,16 +337,23 @@ IdModule  = Busino_Rev_A:Resistor_Horizontal__400;
 EndCmp
 
 BeginCmp
+TimeStamp = /53928C55/53A60F87;
+Reference = R8;
+ValeurCmp = .47;
+IdModule  = Busino_Rev_A:Resistor_Horizontal__400;
+EndCmp
+
+BeginCmp
 TimeStamp = /53928C55/53940674;
 Reference = SW1;
 ValeurCmp = 2_LEAD_PUSH_BUTTON;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+IdModule  = Busino_Rev_A:BUTTON_6.5MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /53928C55/53973964;
 Reference = U1;
-ValeurCmp = VOLTAGE_REGULATOR;
+ValeurCmp = LM2940CT-5.0;
 IdModule  = Busino_Rev_A:Regulator_TO_220_Horizontal;
 EndCmp
 
@@ -325,7 +367,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53928C55/53973976;
 Reference = U3;
-ValeurCmp = VOLTAGE_REGULATOR;
+ValeurCmp = LM1117T-3.3;
 IdModule  = Busino_Rev_A:Regulator_TO_220_Horizontal;
 EndCmp
 
