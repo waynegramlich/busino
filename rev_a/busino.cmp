@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Sun 22 Jun 2014 05:26:00 PM PDT
+Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Tue 08 Jul 2014 10:02:43 PM PDT
 
 BeginCmp
 TimeStamp = /53928C55/539511B8;
@@ -89,6 +89,13 @@ TimeStamp = /53928C55/539651F0;
 Reference = D1;
 ValeurCmp = SCHOTTKY_DIODE_VERT;
 IdModule  = Busino_Rev_A:Diode_DO-41_SOD81_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FD92D/53BC139E;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = Busino_Rev_A:T1_LED;
 EndCmp
 
 BeginCmp
@@ -183,6 +190,13 @@ IdModule  = Busino_Rev_A:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
+TimeStamp = /538FD92D/53BC0E51;
+Reference = J2;
+ValeurCmp = LED_JUMPER;
+IdModule  = Busino_Rev_A:Pin_Header_Straight_2x02;
+EndCmp
+
+BeginCmp
 TimeStamp = /538FD92D/53909100;
 Reference = N1;
 ValeurCmp = ARD_SPI_HEADER;
@@ -214,7 +228,7 @@ BeginCmp
 TimeStamp = /538FD92D/53909187;
 Reference = N5;
 ValeurCmp = ARD_PWR_HEADER;
-IdModule  = Busino_Rev_A:Pin_Header_Straight_1x08;
+IdModule  = Busino_Rev_A:Pin_Header_Straight_1x06;
 EndCmp
 
 BeginCmp
@@ -288,6 +302,13 @@ IdModule  = Busino_Rev_A:Pin_Header_Straight_2x08;
 EndCmp
 
 BeginCmp
+TimeStamp = /53928C55/53BB7F2C;
+Reference = N16;
+ValeurCmp = AVR_JTAG_CONNECTOR;
+IdModule  = Busino_Rev_A:Pin_Header_Straight_2x05_Shrouded;
+EndCmp
+
+BeginCmp
 TimeStamp = /53928C55/5392C307;
 Reference = R1;
 ValeurCmp = 120 1%;
@@ -344,6 +365,20 @@ IdModule  = Busino_Rev_A:Resistor_Horizontal__400;
 EndCmp
 
 BeginCmp
+TimeStamp = /538FD92D/53BC0FA9;
+Reference = R9;
+ValeurCmp = R_VERT;
+IdModule  = Busino_Rev_A:Resistor_Horizontal__400;
+EndCmp
+
+BeginCmp
+TimeStamp = /538FD92D/53BC115B;
+Reference = R10;
+ValeurCmp = R_VERT;
+IdModule  = Busino_Rev_A:Resistor_Horizontal__400;
+EndCmp
+
+BeginCmp
 TimeStamp = /53928C55/53940674;
 Reference = SW1;
 ValeurCmp = 2_LEAD_PUSH_BUTTON;
@@ -390,6 +425,13 @@ TimeStamp = /53928C55/5393A359;
 Reference = X1;
 ValeurCmp = 16MHz;
 IdModule  = Busino_Rev_A:Crystal_HC49-U_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/53BCDB40;
+Reference = X2;
+ValeurCmp = OSHW_LOGO;
+IdModule  = Busino_Rev_A:OSHW_LOGO_250mil;
 EndCmp
 
 EndListe

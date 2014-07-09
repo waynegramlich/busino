@@ -13,6 +13,10 @@ $CMP C_VERT
 D Non-Porlarized Capacitor
 $ENDCMP
 #
+$CMP LED
+D Light Emitting Diode
+$ENDCMP
+#
 $CMP R_HORIZ
 D Resistor
 $ENDCMP

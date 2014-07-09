@@ -30,7 +30,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:mbino
 LIBS:busino-cache
 EELAYER 24 0
 EELAYER END
@@ -38,8 +37,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 7
 Title "Busino -- Top Level"
-Date ""
-Rev "A"
+Date "08 Jul 2014"
+Rev "Rev. A"
 Comp ""
 Comment1 ""
 Comment2 ""

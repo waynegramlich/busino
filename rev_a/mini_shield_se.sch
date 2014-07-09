@@ -30,16 +30,15 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:mbino
 LIBS:busino-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 7
-Title ""
-Date ""
-Rev ""
+Title "Busino: South East Mini-Shield Connections"
+Date "08 Jul 2014"
+Rev "Rev. A"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -364,7 +363,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 5500 3900 5500
 Wire Wire Line
-	3900 5600 6200 5600
+	3900 5600 6100 5600
 Wire Wire Line
 	5700 5800 3900 5800
 Wire Wire Line
@@ -387,8 +386,8 @@ $Comp
 L 3MM_HOLE H10
 U 1 1 5396AEE0
 P 6400 5600
-F 0 "H10" H 6350 5750 50  0000 C CNN
-F 1 "MS_SE_3MM_HOLE" H 6400 5450 50  0000 C CNN
+F 0 "H10" H 6200 5550 50  0000 C CNN
+F 1 "MS_SE_3MM_HOLE" H 6850 5600 50  0000 C CNN
 F 2 "" H 6400 5600 60  0000 C CNN
 F 3 "" H 6400 5600 60  0000 C CNN
 	1    6400 5600
