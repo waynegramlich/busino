@@ -38,7 +38,7 @@ encoding utf-8
 Sheet 4 7
 Title "Busino: Processor"
 Date "08 Jul 2014"
-Rev "Rev. A"
+Rev "A"
 Comp ""
 Comment1 ""
 Comment2 ""

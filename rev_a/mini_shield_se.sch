@@ -38,7 +38,7 @@ encoding utf-8
 Sheet 5 7
 Title "Busino: South East Mini-Shield Connections"
 Date "08 Jul 2014"
-Rev "Rev. A"
+Rev "A"
 Comp ""
 Comment1 ""
 Comment2 ""
