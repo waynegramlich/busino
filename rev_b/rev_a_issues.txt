@@ -1,0 +1,25 @@
+Issues with Rev. A
+
+* LM1117-3.3V is all messed up.  Pin 1 = GND, Pin 2 = Vout, Pin3 = Vin
+  Note that pin 2 is connected to the thermal pad.
+
+* ISP socket does not mark pin 1
+
+* C7 artwork is not properly placed
+
+* D1 Shottky Diode has no part number.
+
+* Check for + signs on C1, C3, and C5
+
+* R9 and R10 should be marked 470 ohms.
+
+* D2 + sign is hard to see.
+
+* Many of the schematic sheets are not 8.5 x 11.
+
+
+Additions:
+
+* Think about adding an ISP programming mini-shield so one
+  Busino can program another with a simple 6 pin cable.
+

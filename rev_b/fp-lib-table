@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name busino)(type KiCad)(uri $KIPRJMOD/busino.pretty)(options "")(descr ""))
+)
