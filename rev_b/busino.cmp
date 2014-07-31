@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Mon 28 Jul 2014 03:49:38 PM PDT
+Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Mon 28 Jul 2014 09:22:44 PM PDT
 
 BeginCmp
 TimeStamp = /53928C55/539511B8;
@@ -87,14 +87,14 @@ EndCmp
 BeginCmp
 TimeStamp = /53928C55/539651F0;
 Reference = D1;
-ValeurCmp = SCHOTTKY_DIODE_VERT;
+ValeurCmp = SD101C-TR;
 IdModule  = Busino_Rev_B:Diode_DO-41_SOD81_Horizontal_RM10;
 EndCmp
 
 BeginCmp
 TimeStamp = /538FD92D/53BC139E;
 Reference = D2;
-ValeurCmp = LED;
+ValeurCmp = WP710A10GD;
 IdModule  = Busino_Rev_B:T1_LED;
 EndCmp
 
@@ -367,21 +367,21 @@ EndCmp
 BeginCmp
 TimeStamp = /538FD92D/53BC0FA9;
 Reference = R9;
-ValeurCmp = R_VERT;
+ValeurCmp = 470;
 IdModule  = Busino_Rev_B:Resistor_Horizontal__400;
 EndCmp
 
 BeginCmp
 TimeStamp = /538FD92D/53BC115B;
 Reference = R10;
-ValeurCmp = R_VERT;
+ValeurCmp = 470;
 IdModule  = Busino_Rev_B:Resistor_Horizontal__400;
 EndCmp
 
 BeginCmp
 TimeStamp = /53928C55/53940674;
 Reference = SW1;
-ValeurCmp = 2_LEAD_PUSH_BUTTON;
+ValeurCmp = MJTP1243;
 IdModule  = Busino_Rev_B:BUTTON_6.5MM;
 EndCmp
 
@@ -400,7 +400,7 @@ IdModule  = Busino_Rev_B:DIP-8__300;
 EndCmp
 
 BeginCmp
-TimeStamp = /53928C55/53973976;
+TimeStamp = /53928C55/53D6FB76;
 Reference = U3;
 ValeurCmp = LM1117T-3.3;
 IdModule  = Busino_Rev_B:Regulator_TO_220_Horizontal;
@@ -409,7 +409,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53928C55/5392B71C;
 Reference = U4;
-ValeurCmp = 74x06;
+ValeurCmp = 74x05;
 IdModule  = Busino_Rev_B:DIP-14__300;
 EndCmp
 

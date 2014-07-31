@@ -17,6 +17,10 @@ $CMP LED
 D Light Emitting Diode
 $ENDCMP
 #
+$CMP LM1117
+D Voltage Regulator
+$ENDCMP
+#
 $CMP R_HORIZ
 D Resistor
 $ENDCMP

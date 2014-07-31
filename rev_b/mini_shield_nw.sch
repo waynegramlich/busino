@@ -33,12 +33,12 @@ LIBS:valves
 LIBS:busino-cache
 EELAYER 24 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A 11000 8500
 encoding utf-8
 Sheet 6 7
 Title "Busino: North West Mini-Shield Connections"
-Date "08 Jul 2014"
-Rev "A"
+Date "28 Jul 2014"
+Rev "B"
 Comp ""
 Comment1 ""
 Comment2 ""
