@@ -37,7 +37,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 3 7
 Title "Busino: South West Mini-Shield Connections"
-Date "28 Jul 2014"
+Date "13 Aug 2014"
 Rev "B"
 Comp ""
 Comment1 ""

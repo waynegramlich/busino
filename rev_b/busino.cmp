@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Mon 28 Jul 2014 09:22:44 PM PDT
+Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Mon 04 Aug 2014 06:41:01 PM PDT
 
 BeginCmp
 TimeStamp = /53928C55/539511B8;
@@ -330,9 +330,9 @@ IdModule  = Busino_Rev_B:Resistor_Horizontal__400;
 EndCmp
 
 BeginCmp
-TimeStamp = /53928C55/5393FAF3;
+TimeStamp = /53928C55/53E08AC8;
 Reference = R4;
-ValeurCmp = 1K;
+ValeurCmp = 100K;
 IdModule  = Busino_Rev_B:Resistor_Horizontal__400;
 EndCmp
 
@@ -375,6 +375,27 @@ BeginCmp
 TimeStamp = /538FD92D/53BC115B;
 Reference = R10;
 ValeurCmp = 470;
+IdModule  = Busino_Rev_B:Resistor_Horizontal__400;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/53E07904;
+Reference = R11;
+ValeurCmp = 100K;
+IdModule  = Busino_Rev_B:Resistor_Horizontal__400;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/53E068CC;
+Reference = R12;
+ValeurCmp = 100K;
+IdModule  = Busino_Rev_B:Resistor_Horizontal__400;
+EndCmp
+
+BeginCmp
+TimeStamp = /53928C55/53E0580B;
+Reference = R13;
+ValeurCmp = 10K;
 IdModule  = Busino_Rev_B:Resistor_Horizontal__400;
 EndCmp
 
