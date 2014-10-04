@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Mon 04 Aug 2014 06:41:01 PM PDT
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Fri 03 Oct 2014 07:42:18 PM PDT
 
 BeginCmp
 TimeStamp = /53928C55/539511B8;
@@ -38,7 +38,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53928C55/539401E3;
 Reference = C6;
-ValeurCmp = .1uF;
+ValeurCmp = 1uF;
 IdModule  = Busino_Rev_B:Capacitor3MMDiscRM2.5;
 EndCmp
 
@@ -428,9 +428,9 @@ IdModule  = Busino_Rev_B:Regulator_TO_220_Horizontal;
 EndCmp
 
 BeginCmp
-TimeStamp = /53928C55/5392B71C;
+TimeStamp = /53928C55/542F6B67;
 Reference = U4;
-ValeurCmp = 74x05;
+ValeurCmp = 74x03;
 IdModule  = Busino_Rev_B:DIP-14__300;
 EndCmp
 

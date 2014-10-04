@@ -37,8 +37,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 6 7
 Title "Busino: North West Mini-Shield Connections"
-Date "13 Aug 2014"
-Rev "B"
+Date "Fri 03 Oct 2014"
+Rev "C"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -374,7 +374,7 @@ U 1 1 5396AEE1
 P 6400 5600
 F 0 "H11" H 6200 5550 50  0000 C CNN
 F 1 "MS_NW_3MM_HOLE" H 6900 5600 50  0000 C CNN
-F 2 "" H 6400 5600 60  0000 C CNN
+F 2 "Busino_Rev_B:MountingHole_3mm" H 6400 5600 60  0001 C CNN
 F 3 "" H 6400 5600 60  0000 C CNN
 	1    6400 5600
 	1    0    0    -1  
@@ -390,7 +390,7 @@ U 1 1 5396AEE2
 P 6700 3950
 F 0 "N13" H 6400 4800 50  0000 C CNN
 F 1 "MS_NW_PWR_HEADER" H 6675 3100 50  0000 C CNN
-F 2 "" H 6700 3950 60  0000 C CNN
+F 2 "Busino_Rev_B:Pin_Header_Straight_2x08" H 6700 3950 60  0001 C CNN
 F 3 "" H 6700 3950 60  0000 C CNN
 	1    6700 3950
 	1    0    0    -1  
@@ -401,7 +401,7 @@ U 1 1 5396AEE6
 P 6700 2150
 F 0 "N12" H 6400 3000 50  0000 C CNN
 F 1 "MS_NW_DATA_HEADER" H 6675 1300 50  0000 C CNN
-F 2 "" H 6700 2150 60  0000 C CNN
+F 2 "Busino_Rev_B:Pin_Header_Straight_2x08" H 6700 2150 60  0001 C CNN
 F 3 "" H 6700 2150 60  0000 C CNN
 	1    6700 2150
 	1    0    0    -1  

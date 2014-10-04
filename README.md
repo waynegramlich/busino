@@ -266,18 +266,17 @@ the 10 low bits can cause C7 to charge.
 ### Issues
 
 * The C1 "+" silk is next to C8.  It belongs next to R8.
-  C3 and C1 have "opposite" polarity.
+  C3 and C1 have "opposite" polarity. [x]
 
-* C6 and C7 should be 1uF in schematic?
+* C6 and C7 should be 1uF in schematic? [C6 yes, C7 no]
 
-* Artwork for R4 is covered by U5 socket.
+* Artwork for R4 is covered by U5 socket. [x]
 
-* R10 artwork overlaps with D2 artrwork.
+* R10 artwork overlaps with D2 artrwork. [x]
 
-* Tie unused inputs of inverter to 0V/5V.
+* Tie unused inputs of inverter to 0V/5V. [x]
 
 * Switch from using 74HCT05 to using 74HCT03 for availability
-  reasongs.
+  reasons. [x]
 
-* The TXD and RXD lines on the CAN bus transceiver are swapped.
-
+* The TXD and RXD lines on the CAN bus transceiver are swapped. [x]
